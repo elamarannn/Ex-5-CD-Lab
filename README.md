@@ -16,7 +16,9 @@ To write a YACC program to recognize the grammar anb where n>=10.
 ```
 NAME: ELAMARAN S E 
 REG NO:212222230036
+```
 PROGRAM 1:
+```
 %{
 /* Definition section */
 #include "y.tab.h"
@@ -34,7 +36,9 @@ int yywrap()
 {
     return 1;
 }
+```
 PROGRAM 2:
+```
 %{
 /* Definition section */
 #include<stdio.h>
